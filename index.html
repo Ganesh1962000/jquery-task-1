@@ -7,14 +7,19 @@
 </head>
 <body>
 
-    <div>
+   <div>
         <p>I am Ganesh Fontend Developer</p>
         <p>I am Ganesh Fontend Developer</p>
+        <button>Click</button>
     </div>
-    <div>
-        <p>I am Ganesh Fontend Developer</p>
-        <p>I am Ganesh Fontend Developer</p>
-    </div>
+    
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("p").hide();
+            })
+        })
+    </script>
     
 </body>
 </html>

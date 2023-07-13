@@ -14,11 +14,22 @@
     </div>
     
     <script>
-        $(document).ready(function(){
-            $("button").click(function(){
-                $("p").hide();
-            })
-        })
+        // $(document).ready(function(){
+        //     $("button").click(function(){
+        //         $("p").hide();
+        //     })
+        // })
+
+        let a = parseInt(prompt("Enter a Number"))
+        let result = 0;
+
+        while(a>0){
+            result = (result*10) + (a%10);
+            a = Math.floor(a/10);
+        }
+
+        console.log(result);
+       
     </script>
     
 </body>

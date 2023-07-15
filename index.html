@@ -41,6 +41,19 @@
         //     })
         // })
 
+         if(name.value == "" || email.value == "" || password.value == ""){
+                if(name.value == ""){
+                    alert("Name Filled is Empty");
+                }
+                if(email.value == ""){
+                    alert("Email Filled is Empty");
+                }
+                if(password.value == ""){
+                    alert("Password Filled is Empty");
+                }
+                return "encountered";
+            }
+
         let a = parseInt(prompt("Enter a Number"))
         let result = 0;
 
